@@ -1,0 +1,6 @@
+framework module FZComponentsKit {
+  umbrella header "FZComponentsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

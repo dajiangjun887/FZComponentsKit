@@ -1,0 +1,6 @@
+framework module Pods_FZComponentsKit_Tests {
+  umbrella header "Pods-FZComponentsKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "FZComponentsKit",
+  "version": "0.0.1",
+  "summary": "组件 FZComponentsKit.",
+  "description": "存放一些组件快速创建的方法，持续收录一些组件",
+  "homepage": "https://github.com/dajiangjun887/FZComponentsKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dajiangjun887": "1178561885@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/dajiangjun887/FZComponentsKit.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FZComponentsKit/Classes/**/*"
+}
