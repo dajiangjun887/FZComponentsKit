@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FZComponentsKit_Example' do
+  pod 'FZComponentsKit', :path => '../'
+
+  target 'FZComponentsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
