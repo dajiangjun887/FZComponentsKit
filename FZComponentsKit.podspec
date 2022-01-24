@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FZComponentsKit'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = '组件 FZComponentsKit.'
   s.swift_version    = ['4.0', '4.2', '5.0']
 
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
+  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
   s.source_files = 'FZComponentsKit/Classes/**/*'
   
   # s.resource_bundles = {
@@ -41,4 +41,5 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'FZCommitKit', '~> 0.0.7'
+  s.dependency 'SnapKit'
 end

@@ -272,11 +272,13 @@
 				"${PODS_ROOT}/Target Support Files/Pods-FZComponentsKit_Example/Pods-FZComponentsKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FZCommitKit/FZCommitKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FZComponentsKit/FZComponentsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FZCommitKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FZComponentsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
