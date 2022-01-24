@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FZCommitKit
 
 class ViewController: UIViewController {
 

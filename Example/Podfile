@@ -1,3 +1,5 @@
+source 'https://github.com/dajiangjun887/FZPodSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 platform :ios, '11.0'
@@ -7,7 +9,7 @@ target 'FZComponentsKit_Example' do
 
   target 'FZComponentsKit_Tests' do
     inherit! :search_paths
-
+    pod 'FZCommitKit', '~> 0.0.7'
     
   end
 end

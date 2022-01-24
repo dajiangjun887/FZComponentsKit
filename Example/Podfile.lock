@@ -1,16 +1,24 @@
 PODS:
-  - FZComponentsKit (0.0.1)
+  - FZCommitKit (0.0.7)
+  - FZComponentsKit (0.0.2):
+    - FZCommitKit (~> 0.0.7)
 
 DEPENDENCIES:
+  - FZCommitKit (~> 0.0.7)
   - FZComponentsKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/dajiangjun887/FZPodSpecs.git:
+    - FZCommitKit
 
 EXTERNAL SOURCES:
   FZComponentsKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FZComponentsKit: dc848d0b72546ddd5644c6a781d505295c4f8830
+  FZCommitKit: fff0b3bb2e008097787a97b1953fbf6143295be0
+  FZComponentsKit: 7d4568923a09eab03a7082b87432232dcf2aa640
 
-PODFILE CHECKSUM: 5583bf2e13128decff8aa2b8ebbaf2e1df98237f
+PODFILE CHECKSUM: f601cd8b5d9a5a450f139c098907de7fe027a98c
 
 COCOAPODS: 1.11.2
