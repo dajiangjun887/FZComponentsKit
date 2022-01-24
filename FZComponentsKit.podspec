@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FZComponentsKit'
-  s.version          = '0.0.2'
+  s.version          = '0.0.4'
   s.summary          = '组件 FZComponentsKit.'
   s.swift_version    = ['4.0', '4.2', '5.0']
 

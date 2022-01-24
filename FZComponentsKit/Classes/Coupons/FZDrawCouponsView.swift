@@ -20,7 +20,7 @@ class FZDrawCouponsView: UIView {
     let shadowWidth: CGFloat = 2.fit
 
     let contentColor = UIColor.white.cgColor
-    let lineColor = fz_hexStringColor(hexString: "#E0E0E0").cgColor
+    let lineColor = UIColor.gray.cgColor
     let lineDistance: CGFloat = 10.fit
         
     override init(frame: CGRect) {

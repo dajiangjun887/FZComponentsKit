@@ -1,6 +1,6 @@
 {
   "name": "FZComponentsKit",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "summary": "组件 FZComponentsKit.",
   "swift_versions": [
     "4.0",
@@ -18,7 +18,7 @@
   },
   "source": {
     "git": "https://github.com/dajiangjun887/FZComponentsKit.git",
-    "tag": "0.0.2"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "10.0"

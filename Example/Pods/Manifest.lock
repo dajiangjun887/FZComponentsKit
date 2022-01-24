@@ -1,6 +1,6 @@
 PODS:
   - FZCommitKit (0.0.7)
-  - FZComponentsKit (0.0.2):
+  - FZComponentsKit (0.0.4):
     - FZCommitKit (~> 0.0.7)
 
 DEPENDENCIES:
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FZCommitKit: fff0b3bb2e008097787a97b1953fbf6143295be0
-  FZComponentsKit: 7d4568923a09eab03a7082b87432232dcf2aa640
+  FZComponentsKit: eca7129e175b0b913d9cab1f8ff21fceeb577fd4
 
 PODFILE CHECKSUM: f601cd8b5d9a5a450f139c098907de7fe027a98c
 
